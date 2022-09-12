@@ -1,0 +1,11 @@
+{
+    "name": "Ad Blocker pro",
+    "description": "No more clicking on ads showed by google or any advertisement company.",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "permissions":["webRequest", "webRequestBlocking", "<all_urls"],
+    "background":{
+        "scripts": ["background.js"]
+    }
+
+}
